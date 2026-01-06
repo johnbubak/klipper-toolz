@@ -13,7 +13,7 @@ Dieses Makro druckt eine kleine Form, umschließt die Düse mit Plastik und zieh
 
 Um **Klipper Toolz** in dein System zu integrieren und automatische Updates über Fluidd/Mainsail zu erhalten, folge diesen Schritten:
 
-### 1. Moonraker Update-Manager einrichten
+### Moonraker Update-Manager einrichten
 Öffne deine `moonraker.conf` und füge am Ende den folgenden Block hinzu. 
 > **Wichtig:** Ersetze `DEIN_USER` durch deinen tatsächlichen GitHub-Benutzernamen.
 
@@ -33,7 +33,7 @@ Makro in Klipper aktivieren
 [include ../klipper-toolz/encapsulation_clean.cfg]
 ```
 
-3. Direct-Drive Extruder ! Voraussetzungen prüfen
+### Direct-Drive Extruder ! Voraussetzungen prüfen
 Damit die Pausen-Funktion (besonders wichtig für Direct-Drive Extruder) korrekt funktioniert, muss das pause_resume Modul in deiner printer.cfg aktiv sein. Falls du es noch nicht hast, füge diese Zeile einfach hinzu:
 
 ```ini
